@@ -1,8 +1,8 @@
 import styled from 'react-emotion'
-import tw from 'tailwind.macro'
 
 const Page = styled.div({
-  ...tw`flex`
+  display: 'flex',
+  justifyContent: 'center'
 })
 
 export { Page }

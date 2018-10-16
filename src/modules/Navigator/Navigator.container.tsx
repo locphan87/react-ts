@@ -13,10 +13,10 @@ const Navigator = () => (
       <Route path={Routes.About} component={Pages.About} />
     </Switch>
     <div style={{ textAlign: 'center', padding: '2em 0' }}>
-      <Link to="/" style={{ marginRight: '0.75em' }}>
+      <Link to={Routes.Home} style={{ marginRight: '0.75em' }}>
         Home
       </Link>
-      <Link to="/about-us">About us</Link>
+      <Link to={Routes.About}>About Us</Link>
     </div>
   </div>
 )

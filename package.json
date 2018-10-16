@@ -34,6 +34,7 @@
     "setup": "make setup",
     "start": "make start",
     "build": "make build-static",
+    "build:css": "make build-css",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
     "commitmsg": "validate-commit-msg"

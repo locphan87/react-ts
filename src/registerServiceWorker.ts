@@ -26,6 +26,7 @@ export default function register() {
       process.env.PUBLIC_URL!,
       window.location.toString()
     )
+
     if (publicUrl.origin !== window.location.origin) {
       // Our service worker won't work if PUBLIC_URL is on a different origin
       // from what our page is served on. This might happen if a CDN is used to
@@ -62,6 +63,7 @@ function registerValidSW(swUrl: string) {
     .then(registration => {
       registration.onupdatefound = () => {
         const installingWorker = registration.installing
+
         if (installingWorker) {
           installingWorker.onstatechange = () => {
             if (installingWorker.state === 'installed') {

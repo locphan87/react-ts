@@ -1,16 +1,7 @@
 import React from 'react'
 
-const HomeView = () => (
-  <h1
-    style={{
-      margin: '2em 0 0 0',
-      textAlign: 'center',
-      textTransform: 'uppercase',
-      color: '#000'
-    }}
-  >
-    Home
-  </h1>
-)
+import { Container } from './Home.view.style'
+
+const HomeView = () => <Container>Home</Container>
 
 export default HomeView

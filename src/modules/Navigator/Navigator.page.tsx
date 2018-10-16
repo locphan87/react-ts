@@ -1,16 +1,9 @@
-import Loadable from 'react-loadable'
-
-import Loading from '../../components/Loading/Loading.component'
+import About from '../About/About.page'
+import Home from '../Home/Home.page'
 
 const Pages = {
-  Home: Loadable({
-    loader: () => import('../Home/Home.page'),
-    loading: Loading
-  }),
-  About: Loadable({
-    loader: () => import('../About/About.page'),
-    loading: Loading
-  })
+  Home,
+  About
 }
 
 export default Pages

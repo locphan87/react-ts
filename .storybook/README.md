@@ -7,4 +7,4 @@ To run Storybook:
 `yarn storybook`
 
 To build Storybook:
-`yarn build-storybook`
+`yarn build:storybook`

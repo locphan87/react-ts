@@ -12,5 +12,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [ ] Set up Basics HOCs
 - [ ] Set up utilities
 - [ ] Set up emotion, tailwind
-- [ ] Set up storybook
+- [x] Set up storybook
 - [ ] Set up Unit tests

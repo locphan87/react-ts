@@ -37,9 +37,15 @@
     "build:css": "make build-css",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
-    "commitmsg": "validate-commit-msg"
+    "commitmsg": "validate-commit-msg",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^4.0.0-alpha.25",
+    "@storybook/addon-links": "^4.0.0-alpha.25",
+    "@storybook/addons": "^4.0.0-alpha.25",
+    "@storybook/react": "^4.0.0-alpha.25",
     "@types/jest": "23.3.5",
     "@types/ramda": "^0.25.39",
     "@types/react": "16.4.17",
@@ -50,6 +56,8 @@
     "@types/react-router-dom": "^4.3.1",
     "@types/recompose": "^0.27.0",
     "@types/redux-actions": "^2.3.1",
+    "@types/storybook__react": "^3.0.9",
+    "awesome-typescript-loader": "^5.2.1",
     "husky": "1.1.2",
     "lint-staged": "7.3.0",
     "prettier": "1.14.3",

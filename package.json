@@ -39,7 +39,7 @@
     "eject": "react-scripts-ts eject",
     "commitmsg": "validate-commit-msg",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build:storybook": "build-storybook"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^4.0.0-alpha.25",

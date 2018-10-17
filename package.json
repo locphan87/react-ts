@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/i18n-js": "3.0.1",
     "autoprefixer": "9.2.0",
     "babel-jest": "23.6.0",
     "babel-loader": "8.0.4",
@@ -84,6 +83,7 @@
     "@storybook/addon-links": "^4.0.0-alpha.25",
     "@storybook/addons": "^4.0.0-alpha.25",
     "@storybook/react": "^4.0.0-alpha.25",
+    "@types/i18n-js": "3.0.1",
     "@types/jest": "23.3.5",
     "@types/ramda": "^0.25.39",
     "@types/react": "16.4.17",

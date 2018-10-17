@@ -6,8 +6,8 @@ Setup for multi-languages
 
 ```
 ./src/i18n
-├── index.js
+├── index.tsx
 └── locales
-    ├── en.js
-    └── vi.js
+    ├── en.tsx
+    └── vi.tsx
 ```

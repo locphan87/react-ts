@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [x] Set up TypeScript
 - [x] Set up Devtools
-- [ ] Set up Redux & tools
+- [x] Set up Redux & tools
 - [x] Set up i18n
 - [x] Set up React router
 - [x] Set up code splitting

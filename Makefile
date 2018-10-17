@@ -6,6 +6,7 @@ setup:
 setup-env:
 	yarn
 	cp .env.$(ENV) .env
+	make build-css
 
 start:
 	make setup-env

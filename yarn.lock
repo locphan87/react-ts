@@ -5393,6 +5393,11 @@ inquirer@6.2.0, inquirer@^6.2.0:
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
+insert-if@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/insert-if/-/insert-if-1.1.0.tgz#3a80c9fc77ae54a078203a8d8eaa5afce2796849"
+  integrity sha512-67M7OaZw0x58rffBPMCV6D4AAIMZUXQ5SlJxuCgpy+4JL4SYu4foPVrsPk9cv9GzeFGL14/rpWc22HiIgzwCvg==
+
 internal-ip@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/internal-ip/-/internal-ip-1.2.0.tgz#ae9fbf93b984878785d50a8de1b356956058cf5c"

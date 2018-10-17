@@ -57,8 +57,8 @@ $ yarn test
 
 1. [x] Set up TypeScript
 2. [x] Set up Devtools
-3. [ ] Set up Redux & tools
-4. [ ] Set up i18n
+3. [x] Set up Redux & tools
+4. [x] Set up i18n
 5. [x] Set up React router
 6. [x] Set up code splitting
 7. [ ] Set up basics HOCs: loading, updating, error,...

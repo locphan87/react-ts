@@ -1,6 +1,6 @@
 import I18n from 'i18n-js'
 import en from './locales/en'
-import vn from './locales/vn'
+import vi from './locales/vi'
 
 I18n.fallbacks = true
 I18n.defaultLocale = 'en'
@@ -10,9 +10,9 @@ I18n.locale = 'en'
 I18n.defaultSeparator = '/'
 I18n.translations = {
   en,
-  vn
+  vi
 }
+const t = I18n.t.bind(I18n)
 
-const i18n = I18n
-
-export default i18n
+export { t }
+export default I18n

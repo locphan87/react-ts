@@ -1,3 +1,4 @@
 export default {
-  hello: 'Hello'
+  'home.title': 'Home',
+  'about.title': 'About Us'
 }

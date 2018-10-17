@@ -10338,7 +10338,7 @@ type-is@~1.6.16:
     media-typer "0.3.0"
     mime-types "~2.1.18"
 
-type-to-reducer@^1.1.0:
+type-to-reducer@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/type-to-reducer/-/type-to-reducer-1.1.0.tgz#070f122ff1fe0c96c9787237b64be32777a7d71d"
   integrity sha1-Bw8SL/H+DJbJeHI3tkvjJ3en1x0=

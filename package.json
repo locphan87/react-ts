@@ -99,11 +99,13 @@
     "@types/storybook__react": "^3.0.9",
     "awesome-typescript-loader": "^5.2.1",
     "babel-plugin-emotion": "9.2.11",
+    "babel-plugin-macros": "2.4.2",
     "babel-plugin-tailwind-components": "0.5.10",
     "husky": "1.1.2",
     "lint-staged": "7.3.0",
     "prettier": "1.14.3",
     "source-map-explorer": "1.6.0",
+    "tailwind.macro": "0.5.10",
     "tslint-config-airbnb": "5.11.0",
     "typescript": "3.1.3"
   },
@@ -186,14 +188,6 @@
         ]
       }
     },
-    "plugins": [
-      [
-        "tailwind-components",
-        {
-          "config": "./src/theme/tailwind.js",
-          "format": "auto"
-        }
-      ]
-    ]
+    "plugins": ["macros"]
   }
 }

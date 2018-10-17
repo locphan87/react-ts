@@ -9961,6 +9961,13 @@ symbol.prototype.description@^1.0.0:
   dependencies:
     has-symbols "^1.0.0"
 
+tailwind.macro@0.5.10:
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/tailwind.macro/-/tailwind.macro-0.5.10.tgz#17e4ca07bcdeaa50cc4fdc011a9c5c966b9351c8"
+  integrity sha512-ZV2rbd5Q3W7j1HJYzK1I9Q6wkkRVe0J//EprN/XHLKs8bImXkYv1ZcpMM030iSdO/ZBc19YW3CfkRpA25gBg5A==
+  dependencies:
+    babel-plugin-tailwind-components "0.5.10"
+
 tailwindcss@0.6.6:
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-0.6.6.tgz#a8c8a8bf7d230c8bc10031672923d84af29cd34d"

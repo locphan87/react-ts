@@ -11,13 +11,13 @@ const { store, persistor } = createStore()
 
 const App = () => (
   <Provider store={store}>
-    <BrowserRouter>
-      <ThemeProvider theme={theme}>
-        <PersistGate loading={null} persistor={persistor}>
+    <PersistGate loading={null} persistor={persistor}>
+      <BrowserRouter>
+        <ThemeProvider theme={theme}>
           <Navigator />
-        </PersistGate>
-      </ThemeProvider>
-    </BrowserRouter>
+        </ThemeProvider>
+      </BrowserRouter>
+    </PersistGate>
   </Provider>
 )
 

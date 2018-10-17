@@ -8,7 +8,7 @@ import rootReducer from './reducer'
 declare var window: {
   __REDUX_DEVTOOLS_EXTENSION_COMPOSE__: any
 }
-const key = `banking-${process.env.NODE_ENV}`
+const key = `banking-${process.env.REACT_APP_ENV}`
 const persistConfig = {
   key,
   storage,

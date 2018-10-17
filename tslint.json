@@ -12,7 +12,8 @@
       "scripts/*.js",
       "node_modules/**/*.ts",
       "coverage/lcov-report/*.js",
-      "src/registerServiceWorker.ts"
+      "src/registerServiceWorker.ts",
+      "src/theme/tailwind.js"
     ]
   },
   "jsRules": {},

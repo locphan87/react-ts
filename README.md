@@ -55,17 +55,17 @@ $ yarn test
 
 ## Roadmap
 
-1. [x] Set up TypeScript
-2. [x] Set up Devtools
-3. [x] Set up Redux & tools
-4. [x] Set up i18n
-5. [x] Set up React router
-6. [x] Set up code splitting
-7. [ ] Set up basics HOCs: loading, updating, error,...
-8. [x] Set up common utilities: common, date, theme,...
-9. [x] Set up emotion, tailwind for UI components
-10. [x] Set up storybook
-11. [ ] Set up data integration: REST API
-12. [x] Set up unit tests
-13. [ ] Write simple unit tests for renders and logic
-14. [ ] Set up babel plugin for tailwind
+- [x] Set up TypeScript
+- [x] Set up Devtools
+- [x] Set up Redux & tools
+- [x] Set up i18n
+- [x] Set up React router
+- [x] Set up code splitting
+- [ ] Set up basics HOCs: loading, updating, error,...
+- [x] Set up common utilities: common, date, theme,...
+- [x] Set up emotion, tailwind for UI components
+- [x] Set up storybook
+- [x] Set up data integration: REST API
+- [x] Set up unit tests
+- [ ] Write simple unit tests for renders and logic
+- [ ] Set up babel plugin for tailwind

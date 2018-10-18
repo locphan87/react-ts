@@ -109,6 +109,6 @@ $ yarn analyze
 - [x] Set up data integration: REST API, `apollo-link-rest`
 - [x] Set up unit tests
 - [x] Write simple unit tests for renders and logic
-- [ ] Apply data integration by a simple example (module `PostList`)
+- [x] Apply data integration by a simple example (module `PostList`)
 - [ ] Set up a HOC for tailwind utility classes
 - [ ] Apply a reliable UI framework

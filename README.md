@@ -67,5 +67,5 @@ $ yarn test
 - [x] Set up storybook
 - [x] Set up data integration: REST API
 - [x] Set up unit tests
-- [ ] Write simple unit tests for renders and logic
+- [x] Write simple unit tests for renders and logic
 - [ ] Set up babel plugin for tailwind

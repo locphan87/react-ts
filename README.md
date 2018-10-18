@@ -2,6 +2,24 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+Table of Contents
+=================
+
+* [Architecture](#architecture)
+* [Getting started](#getting-started)
+* [Development flow](#development-flow)
+   * [Run the app](#run-the-app)
+   * [Start the mock server](#start-the-mock-server)
+   * [Storybook](#storybook)
+   * [Rebuild CSS](#rebuild-css)
+   * [Test the app](#test-the-app)
+* [Deployment](#deployment)
+* [Roadmap](#roadmap)
+
+## Architecture
+
+[Details](https://github.com/phanhoangloc/react-achitecture)
+
 ## Getting started
 
 ```shell
@@ -26,6 +44,16 @@ $ yarn start
 $ ENV=production yarn start
 ```
 
+### Start the mock server
+
+We set up a mock server to ease front-end development. Feel free to edit `data.json` as your need.
+
+* Start a json server at port 1337
+
+```shell
+$ yarn server
+```
+
 ### Storybook
 
 * Open the storybook to view UI components
@@ -40,8 +68,7 @@ When you make a change to theme configuration files, it's necessary to rebuild C
 
 Theme configuration files:
 - `tailwind.js`
-- `colors.tsx`
-- `fonts.tsx`
+- `colors.js`
 
 ```shell
 $ yarn build:css
@@ -51,6 +78,20 @@ $ yarn build:css
 
 ```shell
 $ yarn test
+```
+
+## Deployment
+
+* Make a new build
+
+```shell
+$ yarn build
+```
+
+* Analyze dependencies
+
+```shell
+$ yarn analyze
 ```
 
 ## Roadmap
@@ -65,7 +106,9 @@ $ yarn test
 - [x] Set up common utilities: common, date, theme,...
 - [x] Set up emotion, tailwind for UI components
 - [x] Set up storybook
-- [x] Set up data integration: REST API
+- [x] Set up data integration: REST API, `apollo-link-rest`
 - [x] Set up unit tests
 - [x] Write simple unit tests for renders and logic
-- [ ] Set up babel plugin for tailwind
+- [ ] Apply data integration by a simple example (module `PostList`)
+- [ ] Set up a HOC for tailwind utility classes
+- [ ] Apply a reliable UI framework

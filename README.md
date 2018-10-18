@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+Table of Contents
+=================
+
+* [Architecture](#architecture)
+* [Getting started](#getting-started)
+* [Development flow](#development-flow)
+   * [Run the app](#run-the-app)
+   * [Start the mock server](#start-the-mock-server)
+   * [Storybook](#storybook)
+   * [Rebuild CSS](#rebuild-css)
+   * [Test the app](#test-the-app)
+* [Deployment](#deployment)
+* [Roadmap](#roadmap)
+
 ## Architecture
 
 [Details](https://github.com/phanhoangloc/react-achitecture)
@@ -72,6 +86,12 @@ $ yarn test
 
 ```shell
 $ yarn build
+```
+
+* Analyze dependencies
+
+```shell
+$ yarn analyze
 ```
 
 ## Roadmap

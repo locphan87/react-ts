@@ -93,6 +93,7 @@
     "@storybook/addon-links": "^4.0.0-alpha.25",
     "@storybook/addons": "^4.0.0-alpha.25",
     "@storybook/react": "^4.0.0-alpha.25",
+    "@types/enzyme": "^3.1.14",
     "@types/i18n-js": "3.0.1",
     "@types/jest": "23.3.5",
     "@types/ramda": "^0.25.39",
@@ -109,6 +110,9 @@
     "babel-plugin-emotion": "9.2.11",
     "babel-plugin-macros": "2.4.2",
     "babel-plugin-tailwind-components": "0.5.10",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "enzyme-to-json": "^3.3.4",
     "husky": "1.1.2",
     "lint-staged": "7.3.0",
     "prettier": "1.14.3",
@@ -125,6 +129,7 @@
     ]
   },
   "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>setupTests.js",
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
       "!**/*.d.ts"

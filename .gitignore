@@ -17,6 +17,7 @@ src/theme/index.css
 .env.test.local
 .env.production.local
 .env
+data.json
 
 npm-debug.log*
 yarn-debug.log*

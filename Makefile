@@ -2,6 +2,7 @@ ENV ?= staging
 
 setup:
 	cp .env.example .env
+	cp data.json.example data.json
 
 setup-env:
 	yarn

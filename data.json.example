@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "body": "Body 1",
+      "author": "Megan Terry"
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "body": "Body 2",
+      "author": "Emma Martin"
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "body": "Body 3",
+      "author": "Rachel Rampling"
+    }
+  ]
+}

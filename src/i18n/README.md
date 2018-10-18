@@ -1,13 +1,5 @@
-# Translations
+# Internationalization
 
 Setup for multi-languages
 
-## Code structure
-
-```
-./src/i18n
-├── index.tsx
-└── locales
-    ├── en.tsx
-    └── vi.tsx
-```
+Prefer to use plain text keys instead of nested objects that is more difficult for searching & ordering.

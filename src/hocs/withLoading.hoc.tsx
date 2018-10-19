@@ -1,12 +1,12 @@
 import { pathEq } from 'ramda'
-import { branch, renderComponent } from 'recompose'
+import { withLoadingCreator } from 'react-web-hocs'
 
 import LoadingMask from '../components/Loading/Loading.component'
 
-const isDataLoading = pathEq(['data', 'loading'] as ReadonlyArray<string>, true)
-const withLoadingCreator = (predicate: any) =>
-  branch(predicate, renderComponent(LoadingMask))
-const withLoading = withLoadingCreator(isDataLoading)
+const loadingPredicate = pathEq(['data', 'loading'], true)
+const withLoading = withLoadingCreator({
+  predicate: loadingPredicate,
+  component: LoadingMask
+})
 
-export { withLoadingCreator }
-export default withLoading
+export { withLoading }

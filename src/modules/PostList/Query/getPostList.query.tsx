@@ -15,7 +15,6 @@ const params = {
   props: ({ data }: any) => {
     return {
       data,
-      loading: data.loading,
       posts: data.post
     }
   }

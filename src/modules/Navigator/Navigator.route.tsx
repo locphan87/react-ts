@@ -1,4 +1,5 @@
 export default {
   Home: '/',
-  About: '/about-us'
+  About: '/about-us',
+  PostList: '/post-list'
 }

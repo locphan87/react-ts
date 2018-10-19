@@ -1,13 +1,11 @@
 import styled from 'react-emotion'
 
-const Container = styled.h1(
-  {
-    margin: '2em 0 1em 0',
-    textTransform: 'uppercase'
-  },
-  ({ theme }) => ({
+import { withClassName } from '../../hocs'
+
+const Container = withClassName('mt-8 mb-4 uppercase')(
+  styled.h1(({ theme }) => ({
     color: theme.colors.white
-  })
+  }))
 )
 
 export { Container }

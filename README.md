@@ -93,22 +93,3 @@ $ yarn build
 ```shell
 $ yarn analyze
 ```
-
-## Roadmap
-
-- [x] Set up TypeScript
-- [x] Set up Devtools
-- [x] Set up Redux & tools
-- [x] Set up i18n
-- [x] Set up React router
-- [x] Set up code splitting
-- [x] Set up basics HOCs: loading, updating, error,...
-- [x] Set up common utilities: common, date, theme,...
-- [x] Set up emotion, tailwind for UI components
-- [x] Set up storybook
-- [x] Set up data integration: REST API, `apollo-link-rest`
-- [x] Set up unit tests
-- [x] Write simple unit tests for renders and logic
-- [x] Apply data integration by a simple example (module `PostList`)
-- [x] Set up a HOC for tailwind utility classes
-- [ ] Apply a reliable UI framework

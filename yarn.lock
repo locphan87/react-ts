@@ -8996,6 +8996,15 @@ react-treebeard@^3.1.0:
     shallowequal "^1.1.0"
     velocity-react "^1.4.1"
 
+react-web-hocs@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/react-web-hocs/-/react-web-hocs-0.0.2.tgz#45f59e25a30fe0499a5be37e06d066e1e2e65711"
+  integrity sha512-QdX7A6/zqoUJwJTq2Wg50F1Gghji2JrCOkuw8HjkzYcxBF9IGWjTRvjUAUELeiMfeWhOLN4pukCZzNEbILafFg==
+  dependencies:
+    insert-if "1.1.0"
+    ramda-adjunct "2.10.0"
+    recompose "0.30.0"
+
 react@^16.5.2:
   version "16.5.2"
   resolved "https://registry.yarnpkg.com/react/-/react-16.5.2.tgz#19f6b444ed139baa45609eee6dc3d318b3895d42"

@@ -1,1 +1,2 @@
-export * from './withClassName/withClassName.hoc'
+export * from './withClassName.hoc'
+export * from './withLoading.hoc'

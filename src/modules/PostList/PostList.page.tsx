@@ -1,6 +1,6 @@
 import { graphql } from 'react-apollo'
 import { compose } from 'recompose'
-import withLoading from '../../hocs/withLoading.hoc'
+import { withLoading } from '../../hocs'
 import PostListView from './PostList.view'
 import getPostList from './Query/getPostList.query'
 

@@ -1,4 +1,5 @@
 import React, { SFC } from 'react'
+
 import { Page } from '../../components/UI'
 import { Container } from '../Home/Home.view.style'
 

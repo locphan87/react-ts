@@ -110,5 +110,5 @@ $ yarn analyze
 - [x] Set up unit tests
 - [x] Write simple unit tests for renders and logic
 - [x] Apply data integration by a simple example (module `PostList`)
-- [ ] Set up a HOC for tailwind utility classes
+- [x] Set up a HOC for tailwind utility classes
 - [ ] Apply a reliable UI framework

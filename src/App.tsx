@@ -13,7 +13,8 @@ import createStore from './redux/createStore'
 import theme from './theme'
 
 const restLink = new RestLink({
-  uri: process.env.REACT_APP_REST_ENDPOINT
+  uri: process.env.REACT_APP_REST_ENDPOINT,
+  headers: {}
 })
 const client = new ApolloClient({
   link: restLink,
